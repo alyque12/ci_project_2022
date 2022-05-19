@@ -1,0 +1,27 @@
+{% load static %}
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/main_stylesheet.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/opening_page.css' %}">
+        <script src="{% static 'styles/main_script.js' %}"></script>
+    </head>
+    <body>
+        <div class="main_body">
+            <div class="background">
+                <img src="{% static 'source_files/opening_page/background.png' %}" alt="background_image" width="100%" height="100%">
+            </div>
+            <div class="centre_text_div">
+                <h1 class="centre_text">Welcome to WODL</h1>
+            </div>
+            <div class="arrows_div">
+                <img class="arrow_left" src="{% static 'source_files/opening_page/arrow_right.png' %}" alt="arrow_left">
+                <img class="arrow_right" src="{% static 'source_files/opening_page/arrow_right.png' %}" alt="arrow_right">
+            </div>
+            <div class="buttons">
+                <button class="doctor_side" onclick="window.location.href='doctor_login.html'">I'm a Doctor</button>
+                <button class="patient_side" onclick="window.location.href='client_signup.html'">I'm a Patient</button>
+            </div>
+        </div>
+    </body>
+</html>

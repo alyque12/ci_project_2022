@@ -1,0 +1,53 @@
+.main {
+    margin-left: 120px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.test_img{
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.card {
+    max-width: 300px;
+    font-size: small;
+    position: relative;
+    margin-top: 20vh;
+    background-color: #EAEFF1;
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid #BACDD8;
+}
+.main_title {
+    padding-bottom: 5px;
+    margin-left: 445px;
+    font-size: 57px;
+    border-bottom: #b4e0e7;
+}
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #BACDD8;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+}
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.rate_and_review_button{
+    border: black;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #b4e0e7;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}

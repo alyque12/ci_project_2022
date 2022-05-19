@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="{% static 'styles/main_script.js' %}"></script>
+        <script src="{% static 'styles/nav.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'styles/main_stylesheet.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/client_appointments.css' %}">
+    </head>
+<body>
+
+<div id="main" class="main">
+    <span id="main_title" class="main_title">Your Appointments</span>
+    <div id = "card" class="card">
+        <img id="test_img" class="test_img" src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="placeholder img">
+        <span class="tag">Doctor</span>
+        <span class="tag">Nearby</span>
+        <div class="name">Dr. John Doe</div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        <button class="rate_and_review_button" onclick="window.location.href='verification_page.html'">Rate and Review</button>
+    </div>
+</div>
+
+</body>
+</html> 

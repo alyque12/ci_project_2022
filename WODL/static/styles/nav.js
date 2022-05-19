@@ -1,0 +1,13 @@
+document.write("<div id=\"mySidenav\" class=\"sidenav\">");
+document.write("    <div class=\"company_name\">");
+document.write("        <h1 onclick=\"window.location.href='opening_page.html'\">WODL<\/h1>");
+document.write("    <\/div>");
+document.write("  <a href=\"javascript:void(0)\" class=\"closebtn\" onclick=\"closeNav()\">&times;<\/a>");
+document.write("  <a href=\"#\">Search<\/a>");
+document.write("  <a href=\"main_page.html\">Appointments<\/a>");
+document.write("  <a href=\"calender.html\">Schedule<\/a>");
+document.write("  <a href=\"#\">About Us<\/a>");
+document.write("<\/div>");
+document.write("<div id=\"my_sidebar\" class=\"sidebar\">");
+document.write("    <span class=\"menubtn\" onclick=\"openNav()\">Menu<\/span>");
+document.write("<\/div>");

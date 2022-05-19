@@ -1,0 +1,80 @@
+.doctor_side {
+    position: absolute;
+    left: 32%;
+    top: 82%;
+    border: black;
+    padding: 20px 32px;
+    border-radius: 50px;
+    background-color: #b4e0e7;
+    font-weight: 600;
+    display: block;
+}
+
+.patient_side {
+    position: absolute;
+    left: 62%;
+    top: 82%;
+    border: black;
+    padding: 20px 32px;
+    border-radius: 50px;
+    background-color: #b4e0e7;
+    font-weight: 600;
+    display: block;
+}
+
+.background {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    z-index: -1;
+}
+.centre_text_div {
+    position: absolute;
+    top: 25%;
+    margin-left: 40%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    z-index: 1;
+    padding-bottom: 25px;
+    background-color: #00001e;
+    color: white;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-radius: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 8px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.arrow_left {
+    position: absolute;
+    top: 44%;
+    left: 26%;
+    height: 35%;
+    z-index: 0;
+    -webkit-transform:rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    transform: rotate(70deg);
+}
+
+.arrow_right {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    height: 35%;
+    z-index: 0;
+    -webkit-transform:rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
